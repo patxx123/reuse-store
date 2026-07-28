@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <title>ตะกร้าสินค้า</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="header">
+    <h1>View Cart</h1>
+    <p>ตรวจสอบรายการสินค้าที่คุณเลือก</p>
+</div>
+
+<div class="topmenu">
+    <a href="index.html">หน้าแรก</a>
+    <a href="products.html">สินค้าทั้งหมด</a>
+    <a href="cart.html">ตะกร้าสินค้า</a>
+    <a href="confirm.html">ยืนยันการสั่งซื้อ</a>
+    <a href="#">ติดต่อเรา</a>
+</div>
+
+<div class="container">
+    <div class="sidebar">
+        <h3>หมวดสินค้า</h3>
+        <ul>
+            <li><a href="#">เสื้อผ้า</a></li>
+            <li><a href="#">รองเท้า</a></li>
+            <li><a href="#">กระเป๋า</a></li>
+            <li><a href="#">อุปกรณ์เดินป่า</a></li>
+            <li><a href="#">อุปกรณ์กีฬา</a></li>
+        </ul>
+    </div>
+    <div class="content">
+
+        <h2>🛒 ตะกร้าสินค้า</h2>
+
+        <table class="cart-table">
+            <thead>
+                <tr>
+                    <th>ลำดับ</th>
+                    <th>สินค้า</th>
+                    <th>จำนวน</th>
+                    <th>ราคาต่อชิ้น</th>
+                    <th>ราคารวม</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>เสื้อยืดสีขาว</td>
+                    <td>2</td>
+                    <td>109 บาท</td>
+                    <td>218 บาท</td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>รองเท้าผ้าใบ</td>
+                    <td>1</td>
+                    <td>499 บาท</td>
+                    <td>499 บาท</td>
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td>ไม้เทนนิส</td>
+                    <td>1</td>
+                    <td>699 บาท</td>
+                    <td>699 บาท</td>
+                </tr>
+
+                <tr class="total">
+                    <td colspan="4" style="text-align:right;">
+                        <strong>รวมทั้งหมด</strong>
+                    </td>
+                    <td><strong>1,416 บาท</strong></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="button-area">
+            <a href="confirm.html" class="btn">ยืนยันการสั่งซื้อ</a>
+        </div>
+        
+    </div>
+
+</div>
+
+<div class="footer">
+    <p>2026 ReUse Store. All rights reserved.</p>
+    <p>โทร. 080-123-4567 | อีเมล. ReUseStore@gmail.com</p>
+</div>
+
+</body>
+</html>
